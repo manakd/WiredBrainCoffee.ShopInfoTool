@@ -26,4 +26,8 @@ while (true)
             Console.WriteLine(coffeeShop);
         }
     }
+    else
+    {
+        Console.WriteLine($"Invalid command: {command}");
+    }
 }
